@@ -1,0 +1,173 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DWJugueteriaCHavodel81</Database>
+    <Server>DESKTOP-ULKMF4J\RAICELYS</Server>
+    <ConnectionString>Data Source=DESKTOP-ULKMF4J\RAICELYS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>MQcFX0nJnwxwqpfm2co+O9Q8fQQ=4/4/2022 10:52:02 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>DW Jugueteria C Havodel81</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tPlDHHNNw/c2xk8dKYdt3BvhqAg=4/4/2022 10:52:31 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>DW Jugueteria C Havodel81</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+0i3ifXozi0rcBmWMjH/y5sEnDg=4/4/2022 10:57:32 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Suplidor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QJGbDHyyzP10eHWmG9NiKc5By5o=4/4/2022 10:59:34 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Factura</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HNvRltXOqI5uiJaCz7hUPEMnFTY=4/4/2022 11:00:41 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lkV0Jw9GCYvADDzdPruA0CwSdio=4/4/2022 11:01:37 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Ubicacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L4LNaYhFP4dhi7IxcfFSxT+Yvpg=4/4/2022 11:02:05 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iKl6Es7WTqtGOQ3c/PK9VHGh0qo=4/4/2022 11:04:10 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rJPrJQ25NjeyWPKvqHHXEnc+G3M=4/4/2022 11:08:06 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Empleado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yG/PqsZR6cwaQj06SqmhgDwc0Pg=4/4/2022 10:53:30 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact Facturacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U1tPvjb7LXedsBVUntK/vj0frY0=4/4/2022 11:06:43 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Publicidad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7RagcPR0MvlC1ESIHWDAQlY81J8=4/4/2022 11:06:21 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact Publicidad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>36gAzCgFghFhkxNlD4qR/VC4L4E=4/4/2022 11:07:29 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Dim Pago</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>XeJLp8AeXZFUoJSbrEl0a9JTuRU=4/4/2022 11:02:05 PM4/5/2022 7:51:34 AM+HZFwkpB98akEDdw1ijH7P92G1w=4/4/2022 10:53:00 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact_Compras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Y+JPC26UvrKMiE89fgyERBy4lZ8=4/4/2022 11:04:51 PM4/5/2022 7:51:34 AMboNTlGqgj7n6g4SjUpwBZgRH++w=4/4/2022 10:53:30 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>fact_Facturación</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>RyHAb9D7jIddsgLqm5bOeKr/61A=4/4/2022 11:02:05 PM4/5/2022 7:51:34 AMnEXJX3PtNcyVH6ytvhmwQZDHjV8=4/4/2022 10:53:55 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact_Inventario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>++K8SeCvbMiQHqRnLZwBXrVxjT0=4/4/2022 11:06:43 PM4/5/2022 7:51:34 AMAKwiZ9IZZG0b+8ekF3Dk41a9GGw=4/4/2022 10:54:13 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact_Publicidad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aymFutKJEpSqPIyRxEjRDmkRWuw=4/4/2022 11:07:29 PM4/5/2022 7:51:34 AM+E4RmPjKH/U3y80J4o3yywQT8UY=4/4/2022 10:54:35 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact_RRHH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>buYIOTKQ35VqHhjVpcfnz3sNuGc=4/4/2022 11:04:51 PM4/5/2022 7:51:34 AM910VaK08wWUwroRd1AbCWTO5zXA=4/4/2022 10:54:58 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fcat_ServicioAlCliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6gfjX9C0woJhqap7wO1YffFi0Bo=4/4/2022 11:04:51 PM4/5/2022 7:51:34 AMyKt7UQlzYShRXvya9QsDObMzmyQ=4/4/2022 10:55:17 PM4/5/2022 7:51:34 AM</TimeStamp>
+        <ID>
+          <String>Fact_Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>xwRO1Mri4llfyQetvcdYppi7EfM=4/4/2022 7:48:59 PM4/5/2022 7:51:34 AM</TimeStamp>
+      <ID>
+        <String>DWJugueteriaCHavodel81</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-04-05T11:52:32.083333Z</LastDeployed>
+</DeploymentSnapshot>

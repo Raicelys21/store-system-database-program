@@ -1,0 +1,233 @@
+CREATE PROC AgregarSuplidor
+	@Nombre varchar(100),
+	@Telefono bigint,
+	@Pais varchar(100),
+	@Region varchar(100),
+	@Provincia varchar(100),
+	@Ciudad varchar(100),
+	@Calle varchar(100),
+	@No_Asociado int,
+	@Email varchar(100)
+	AS
+		INSERT INTO T_Suplidor (Nombre, Telefono, Pais, Region, Provincia, Ciudad, Calle, No_Asociado, Email) 
+		VALUES (@Nombre, @Telefono, @Pais, @Region, @Provincia, @Ciudad, @Calle, @No_Asociado, @Email)
+	GO
+
+CREATE PROC AgregarProducto
+	@Marca varchar(100),
+	@Categoria varchar(100),
+	@Descripcion varchar(100),
+	@PrecioUnidad money,
+	@CantidadExistencia int,
+	@IDSuplidor int,
+	@IDSucursal int
+	AS
+		INSERT INTO T_Producto (Marca, Categoria, Descripcion, PrecioUnidad, CantidadExistencia, IDSuplidor, IDSucursal) 
+		VALUES (@Marca, @Categoria, @Descripcion, @PrecioUnidad, @CantidadExistencia, @IDSuplidor, @IDSucursal)
+	GO
+
+CREATE PROC AgregarCarritoCompras
+	@IDCliente int,
+	@IDProducto int,
+	@CantidadArt int,
+	@TipoFactura varchar(100),
+	@NumVenta int,
+	@FechaFactura smalldatetime,
+	@Descuento int,
+	@MontoFinal money
+	AS
+		INSERT INTO T_CarritoCompras (IDCliente, IDProducto, CantidadArt, TipoFactura, NumVenta, FechaFactura, Descuento, MontoFinal) 
+		VALUES (@IDCliente,@IDProducto, @CantidadArt, @TipoFactura, @NumVenta, @FechaFactura, @Descuento, @MontoFinal)
+	GO
+
+CREATE PROC AgregarFacturacion
+	@IDCliente int,
+	@IDProducto int,
+	@CantidadArt int,
+	@TipoFactura varchar(100),
+	@NumVenta int,
+	@FechaFactura smalldatetime,
+	@Descuento int,
+	@MontoFinal money
+	AS
+		INSERT INTO T_Facturacion (IDCliente, IDProducto, CantidadArt, TipoFactura, NumVenta, FechaFactura, Descuento, MontoFinal) 
+		VALUES (@IDCliente, @IDProducto, @CantidadArt, @TipoFactura, @NumVenta, @FechaFactura, @Descuento, @MontoFinal)
+		
+    GO
+
+CREATE PROC AgregarPublicidad
+	@TipoPublicidad varchar(100),
+	@NombreArticulo varchar(100),
+	@Costo money,
+	@FechaInicio smalldatetime,
+	@FechaFinal smalldatetime,
+	@IDSucursal int
+	AS
+		INSERT INTO T_Publicidad (TipoPublicidad, NombreArticulo, Costo, FechaInicio, FechaFinal, IDSucursal) 
+		VALUES (@TipoPublicidad, @NombreArticulo, @Costo, @FechaInicio, @FechaFinal, @IDSucursal)
+	GO
+
+CREATE PROC AgregarEmpleado
+	@NombreCompleto varchar(100),
+	@Telefono bigint,
+	@Horario varchar(100),
+	@Sexo varchar(100),
+	@Salario money,
+	@FechaIngreso datetime,
+	@Departamento varchar(100),
+	@IDSucursal int
+	AS
+		INSERT INTO T_Empleado (NombreCompleto, Telefono, Horario, Sexo, Salario, FechaIngreso, Departamento, IDSucursal) 
+		VALUES (@NombreCompleto, @Telefono, @Horario, @Sexo, @Salario, @FechaIngreso, @Departamento, @IDSucursal)
+	GO
+
+CREATE PROC AgregarCliente
+	@Cuenta varchar(100),
+	@NombreCompleto varchar(100),
+	@Pais varchar(100),
+	@Region varchar(100),
+	@Provincia varchar(100),
+	@Ciudad varchar(100),
+	@Calle varchar(100),
+	@Telefono bigint
+	AS
+		INSERT INTO T_Cliente (Cuenta, NombreCompleto, Pais, Region, Provincia, Ciudad, Calle, Telefono)
+		VALUES (@Cuenta, @NombreCompleto, @Pais, @Region, @Provincia, @Ciudad, @Calle, @Telefono)
+	GO
+
+CREATE PROC ListarCliente
+	AS
+		SELECT * FROM T_Cliente ORDER BY IDCliente ASC
+	GO
+
+CREATE PROC ListarProducto
+	AS
+		SELECT * FROM T_Producto ORDER BY IDProducto ASC
+	GO
+
+CREATE PROC ListarProveedor
+	AS
+		SELECT * FROM T_Suplidor  ORDER BY IDSuplidor ASC
+	GO
+
+CREATE PROC ListarSucursal
+	AS
+		SELECT * FROM T_Sucursal  ORDER BY IDSucursal ASC
+	GO
+
+CREATE PROC MostrarSuplidor
+	AS
+		SELECT IDSuplidor AS ID, Nombre, Telefono, Pais, Region, Provincia, Ciudad, Calle, No_Asociado, Email
+		FROM T_Suplidor
+	GO
+
+CREATE PROC MostrarProducto
+	AS
+		SELECT IDProducto AS ID, Marca, Categoria, Descripcion, PrecioUnidad, CantidadExistencia, T_Suplidor.Nombre AS Nombre_Suplidor, T_Sucursal.Nombre AS Sucursal
+		FROM T_Producto
+		INNER JOIN T_Suplidor ON T_Producto.IDSuplidor = T_Suplidor.IDSuplidor
+		INNER JOIN T_Sucursal ON T_Producto.IDSucursal = T_Sucursal.IDSucursal
+	GO
+
+CREATE PROC MostrarCarritoCompras
+	AS
+	SELECT IDFacturacion AS ID, T_Cliente.Nombre, T_Producto.Marca, CantidadArt AS Cantidad_Articulos, TipoFactura, NumVenta, FechaFactura, Descuento, MontoFinal
+		FROM T_CarritoCompras
+		INNER JOIN T_Producto ON T_CarritoCompras.IDProducto = T_Producto.IDProducto
+		INNER JOIN T_Cliente ON T_CarritoCompras.IDCliente = T_Cliente.IDCliente
+	GO
+
+CREATE PROC MostrarFacturacion
+	AS
+		SELECT IDFacturacion AS ID, T_Cliente.Nombre, T_Producto.Marca, CantidadArt AS Cantidad_Articulos, TipoFactura, NumVenta, FechaFactura, Descuento, MontoFinal
+		FROM T_Facturacion
+		INNER JOIN T_Producto ON T_Facturacion.IDProducto = T_Producto.IDProducto
+		INNER JOIN T_Cliente ON T_Facturacion.IDCliente = T_Cliente.IDCliente
+	GO
+
+CREATE PROC MostrarPublicidad
+	AS
+		SELECT IDPublicidad AS ID, TipoPublicidad, NombreArticulo, Costo, FechaInicio, FechaFinal, IDSucursal AS Nombre_Sucursal
+		FROM T_Publicidad
+		INNER JOIN T_Sucursal ON T_Publicidad.IDSucursal = T_Sucursal.IDSucursal
+	GO
+
+CREATE PROC MostrarEmpleado
+	AS
+		SELECT IDEmpleado AS ID, NombreCompleto, Telefono, Horario, Sexo, Salario, FechaIngreso, Departamento, IDSucursal AS Sucursal
+		FROM T_Empleado
+		INNER JOIN T_Sucursal ON T_Empleado.IDSucursal = T_Sucursal.IDSucursal
+	GO
+
+CREATE PROC MostrarCliente
+	AS
+		SELECT IDCliente AS ID,Cuenta, NombreCompleto, Pais, Region, Provincia, Ciudad, Calle, Telefono
+		FROM T_Cliente
+	GO
+
+	CREATE TABLE T_HistorialDeFacturas(
+    Usuario varchar(30),
+    Fecha date,
+    Hora time,
+    IDCliente int FOREIGN KEY REFERENCES T_Cliente(IDCliente),
+    IDProducto int FOREIGN KEY REFERENCES T_Producto(IDProducto),
+    CantidadArt int,
+    TipoFactura varchar(100),
+    NumVenta int,
+    FechaFactura smalldatetime,
+    Descuento int,
+    MontoFinal money
+);
+
+--------------------------------------------------------TRIGGER DDL---------------------------------------------------
+-------------------------------------TRIGGER PARA EL ALTER---------------------------------------- 
+
+CREATE TRIGGER TRIGGERAlterTable
+ON DATABASE
+FOR ALTER_TABLE
+    AS
+        BEGIN
+            PRINT 'No es posible alternar una tabla por el Trigger'
+        ROLLBACK
+    END
+
+----------------------------------------TRIGGER PARA EL DROP---------------------------------------- 
+
+CREATE TRIGGER TRIGGERDropTable
+ON DATABASE
+FOR DROP_TABLE
+    AS
+        BEGIN
+            PRINT 'No es posible borrar una tabla por el Trigger'
+        ROLLBACK
+    END
+
+------------------------------------------------------TRIGGER DML------------------------------------------------------
+
+CREATE TRIGGER HistorialDeFacturacion
+ON T_Facturacion
+FOR INSERT
+AS
+    DECLARE @Usuario varchar(30)
+    DECLARE @Fecha DATE
+    DECLARE @Hora time
+    DECLARE @IDCliente int
+    DECLARE @IDProducto int
+    DECLARE @CantidadArt int
+    DECLARE @TipoFactura varchar(100)
+    DECLARE @NumVenta int
+    DECLARE @FechaFactura smalldatetime
+    DECLARE @Descuento int
+    DECLARE @MontoFinal money
+ 
+    SET @IDCliente = (SELECT IDCliente FROM Inserted)
+    SET @IDProducto = (SELECT IDProducto FROM Inserted)
+    SET @CantidadArt = (SELECT CantidadArt FROM Inserted)
+    SET @TipoFactura = (SELECT TipoFactura FROM Inserted)
+    SET @NumVenta = (SELECT NumVenta FROM Inserted)
+    SET @FechaFactura = (SELECT FechaFactura FROM Inserted)
+    SET @Descuento = (SELECT Descuento FROM Inserted)
+    SET @MontoFinal = (SELECT MontoFinal FROM Inserted)
+    
+    INSERT INTO T_HistorialDeFacturas (Usuario, Fecha, Hora, IDCliente, IDProducto, CantidadArt, TipoFactura, NumVenta, FechaFactura, Descuento, MontoFinal)
+    VALUES (SYSTEM_USER, GETDATE(), CONVERT (time, GETDATE()), IDCliente, @IDProducto, @CantidadArt, @TipoFactura, @NumVenta, @FechaFactura, @Descuento, @MontoFinal)

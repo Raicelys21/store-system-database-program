@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-OI8PSO0.DBJugueteriaCHavodel8.sa 1"
+  DTS:DTSID="{9A0A9068-5A91-4A2F-BA9C-5181C86A8B28}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-OI8PSO0;User ID=sa;Initial Catalog=DBJugueteriaCHavodel8;Persist Security Info=True;Application Name=SSIS-ELTADONET-{9A0A9068-5A91-4A2F-BA9C-5181C86A8B28}DESKTOP-OI8PSO0.DBJugueteriaCHavodel8.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwHbduGTB50yhFfT08hML5gAAAAACAAAAAAAQZgAAAAEAACAAAABr73gTFC3HzxWYnX02P+roM2jdBjZmQ8eVvDyMSiX3gQAAAAAOgAAAAAIAACAAAABOGtSToVD58WroSu4Hw2OfrpD+2dKrO+UStYoeD9EFeoAAAABxn7YtP1V6427yv5TaKgKg73ZnTT6BqBfnba0jpp8DMwrcHmfB7uAgrJNjm8aARML0GmNfUSXicCMirf0EwvMHiCG/Pe+Oe8C6A3QwQh4KGXZovKaZ9Y6DVrWHKT+sPLken3OCTnRmHzN6XSPelq3a6NX8W6WChD9FtHICQ49f/kAAAADf+U5cRbch/VXmIbgr0x6gjxnNeHuiMNYlyOQDGb2A1BSViJfFv36Xg2wKrDWj2Z0rAKrFu4oSmUlECnt530+h</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

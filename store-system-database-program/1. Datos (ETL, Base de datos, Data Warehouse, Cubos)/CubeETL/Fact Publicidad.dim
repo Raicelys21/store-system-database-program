@@ -1,0 +1,291 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d047e6fb-6004-4ca2-9c22-53893f91962e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Publicidad</ID>
+  <Name>Fact Publicidad</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5073" scrolltop="-6350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="15901" y="17542" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Publicidad" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5715" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000053160000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Publicidad" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5073</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6350</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="826d81e9-25e3-4de2-8ea6-869cd7de168e">
+    <DataSourceViewID>DW Jugueteria C Havodel81</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8d35a2d2-a48a-4ea9-aabe-2a19d412d75e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3d1513c5-5e29-4170-8aaf-b1d89b655138">
+      <ID>FC Publicidad ID</ID>
+      <Name>FC Publicidad ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f9d57b8b-9724-4690-8f53-b840e7581a8b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f90b3d94-3faa-47ac-8cfc-512f76088a0f">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>FC_PublicidadID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f37a5c64-ff28-4689-9482-6061778f234c">
+          <AttributeID>Publicidad ID</AttributeID>
+          <Name>Publicidad ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ac04bc25-87db-45ed-8ac2-ecd29705a97f">
+          <AttributeID>Tiempo ID</AttributeID>
+          <Name>Tiempo ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e55c7734-a48b-47af-bbcc-0521c80834a3">
+          <AttributeID>Suplidor ID</AttributeID>
+          <Name>Suplidor ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="70ad0dca-9181-41bd-839b-69bc996dce24">
+          <AttributeID>Producto ID</AttributeID>
+          <Name>Producto ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f312c4d-087d-4cf6-a8f4-ed5a5c346b76">
+          <AttributeID>Presupuesto De Publicidad</AttributeID>
+          <Name>Presupuesto De Publicidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="77a7f2fa-aa89-4430-9dd7-90a7a88e0469">
+          <AttributeID>Medios De Los Productos Publicitados</AttributeID>
+          <Name>Medios De Los Productos Publicitados</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="764ecb33-77a4-4557-8946-e0bcf5cb8580">
+          <AttributeID>Compras Publicaciones</AttributeID>
+          <Name>Compras Publicaciones</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa3dba02-16f0-4ae5-ac37-2bb8e543ebb6">
+          <AttributeID>Cantidad De Publicidad</AttributeID>
+          <Name>Cantidad De Publicidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="289a5102-4d51-4ce0-b2db-35eddad8182f">
+      <ID>Publicidad ID</ID>
+      <Name>Publicidad ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e35405a-985b-4416-a39d-421d1142114c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d626ad5b-e1b7-448d-97c2-d2027fb56e55">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>PublicidadID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5509a04a-e97f-4461-9f62-318ea1d9fa03">
+      <ID>Tiempo ID</ID>
+      <Name>Tiempo ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="395699ab-aa42-4f42-854d-52def31c3fc9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="676b5532-521f-4521-ab45-f7ef294d833d">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>TiempoID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61209019-f4cd-4a2b-a414-80f5a6574c89">
+      <ID>Suplidor ID</ID>
+      <Name>Suplidor ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af27c4df-a51e-457c-9362-a7c73c0154e0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65674b57-5cda-4c26-8db4-fd6b2c500265">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>SuplidorID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3bf449d8-0cbc-4c18-a4f3-007d2310531c">
+      <ID>Producto ID</ID>
+      <Name>Producto ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef78f78c-7f3f-47bb-90d0-ea22fdc54033">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8104c0ac-1d04-4120-9ccb-0009b2c0ad4f">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>ProductoID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b113883e-59cb-4684-a40d-4bfe1d442788">
+      <ID>Presupuesto De Publicidad</ID>
+      <Name>Presupuesto De Publicidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="73b02211-e986-4eeb-95ba-e83c098e7990">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fc43a6a-919a-427c-8f3c-d002d966bdfe">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>PresupuestoDePublicidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d70f8223-d8ed-4a27-b801-68aa212033de">
+      <ID>Medios De Los Productos Publicitados</ID>
+      <Name>Medios De Los Productos Publicitados</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a1f2e01-12b5-45e3-aede-d06a88792fc7">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0cf872e-54d2-4eea-9128-c7d4259fa5bd">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>MediosDeLosProductosPublicitados</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9a90b876-0ce0-49ec-85b7-355c38ebaea9">
+      <ID>Compras Publicaciones</ID>
+      <Name>Compras Publicaciones</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e20e384e-4dee-45e6-9c80-a4607c46c2b6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5399d9f7-1259-46b7-94e0-9b13092df148">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>ComprasPublicaciones</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80d5b446-0bc6-48b7-89f5-ac1aaab1910b">
+      <ID>Cantidad De Publicidad</ID>
+      <Name>Cantidad De Publicidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7ef5f87d-cc08-41ca-824b-b7c337030fec">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3803745a-016b-4077-bb6f-a2ac01e1997d">
+            <TableID>dbo_Fact_Publicidad</TableID>
+            <ColumnID>CantidadDePublicidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="84c08fd4-6d6a-440f-bad7-801aa8cb866a">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="133ff3ba-b964-4bb8-872f-2b9a22c67f71">
+          <ID>Cantidad De Publicidad</ID>
+          <Name>Cantidad De Publicidad</Name>
+          <SourceAttributeID>Cantidad De Publicidad</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1e887ec3-794b-4503-9657-f127d8c4de35">
+          <ID>Medios De Los Productos Publicitados</ID>
+          <Name>Medios De Los Productos Publicitados</Name>
+          <SourceAttributeID>Medios De Los Productos Publicitados</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1cec9d1f-07ef-4271-9672-7acde3313e12">
+          <ID>Compras Publicaciones</ID>
+          <Name>Compras Publicaciones</Name>
+          <SourceAttributeID>Compras Publicaciones</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1b1bb41e-ed56-4d65-9442-605a97b66e85">
+          <ID>Presupuesto De Publicidad</ID>
+          <Name>Presupuesto De Publicidad</Name>
+          <SourceAttributeID>Presupuesto De Publicidad</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

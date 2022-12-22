@@ -1,0 +1,116 @@
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Main.resources
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\source\repos\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Inventario_Productos.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\andin\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Desktop\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\FDCCH\Downloads\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\FDCCH\Downloads\Sistema_Jugueteria_Chavodel8\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\Downloads\Alicia\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Luis Angel\Downloads\PUCMM\Base de Datos 1\Proyecto Final BD\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Raicelys Suero\Downloads\Parcial 3\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe.config
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\bin\Debug\Sistema_Jugueteria_Chavodel8.pdb
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.AssemblyReference.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Compras.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Facturacion.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Inventario.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Publicidad.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_RecursosHumanos.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Dept_Ventas.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Login.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Departamentos.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.Properties.Resources.resources
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.GenerateResource.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.csproj.CoreCompileInputs.cache
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.exe
+C:\Users\Raicelys Suero\Downloads\Parcial 3 - Grupo #2\0. Programa Jueguetería\Sistema_Jugueteria_Chavodel8\obj\Debug\Sistema_Jugueteria_Chavodel8.pdb
